@@ -1,6 +1,6 @@
 # vuejs-d3v4-add-circles-to-map
-d3v4 Changed dramatically from d3v3.   There aren't alot of examples that I could find for d3d4, so I created this to help
-with the learning curve.
+d3v4 Changed dramatically from d3v3.   There aren't alot of examples that I could find for using vue.js with d3d4 for mapping, 
+so I created this to help with the learning curve.
 
 This is based on this great example: https://github.com/CorpGlory/d3vue  and expects this to be installed first. 
 
