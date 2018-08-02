@@ -14,5 +14,13 @@ This is based on this great example: https://github.com/CorpGlory/d3vue  and exp
    -router
     - demo.js
     
+     and add this route:
+     
+  {
+    name: ' map: bubble tooltip & events',
+    path: '/basic-map-bubble',
+    folder: true,
+    component: require('d3-components/basic-map-bubble/index')
+  },
     
     
