@@ -36,7 +36,6 @@ var color = d3.scaleThreshold()
 
 
 
-//   d3.json("static/data/world_countries.json", function(error, us) {
   d3.json("static/data/us.json", function(error, us) {
     var g = svg.append('g');
         g
@@ -55,11 +54,14 @@ var color = d3.scaleThreshold()
           })
       g.attr('transform', 'scale(1.2)')
 
-
+//      look up the long/lat that you want to plot
 //      -71 longitude, 42 latitude
+
             var coordinates = projection([ -71.109734,42.373616]);
 
-       g.append("circle")
+//      pass the coordinates to the d3 map 
+
+        g.append("circle")
                .attr("r", 5)
                .attr("cx", coordinates[0])
                .attr("cy", coordinates[1])
